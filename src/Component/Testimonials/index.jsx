@@ -1,8 +1,8 @@
 import React from "react";
 import './testimonials.style.scss'
-import person_1 from '../../assets/images/person-1.png'
-import person_2 from '../../assets/images/person-2.png'
-import person_3 from '../../assets/images/person-3.png'
+import person_1 from '../../../assets/images/person-1.png'
+import person_2 from '../../../assets/images/person-2.png'
+import person_3 from '../../../assets/images/person-3.png'
 
 export default function Testimonials () {
     return (
@@ -11,7 +11,7 @@ export default function Testimonials () {
           <p className="testimonial-caption">What our users have to say about us</p>
           <div className="flex testimonials center justify-between gap testimonial-bottom">
             <div className="testimonial-container text-left sora test">
-              <div className="flex items-center" style={{width: '343px'}}>
+              <div className="flex items-center" >
                 <img src={person_1} alt="user" />
                 <div style={{paddingLeft: '20px'}}>
                     <p style={{fontWeight: '600'}}>Lindsay Favazza</p>
@@ -25,7 +25,7 @@ export default function Testimonials () {
             </div>
 
             <div className="testimonial-container text-left sora test">
-              <div className="flex items-center" style={{width: '343px'}}>
+              <div className="flex items-center" >
                 <img src={person_2} alt="user" />
                 <div style={{paddingLeft: '20px'}}>
                     <p style={{fontWeight: '600'}}>Valerie Tan</p>
@@ -39,7 +39,7 @@ export default function Testimonials () {
             </div>
 
             <div className="testimonial-container text-left sora test">
-              <div className="flex items-center" style={{width: '343px'}}>
+              <div className="flex items-center" >
                 <img src={person_3} alt="user" />
                 <div style={{paddingLeft: '20px'}}>
                     <p style={{fontWeight: '600'}}>Lea Botha</p>
